@@ -8,8 +8,8 @@ Pod::Spec.new do |spec|
   spec.license = { :type => 'MIT', :file => 'LICENSE' }
 
   spec.osx.deployment_target = '10.10'
-  spec.ios.deployment_target = '8.0'
-  spec.watchos.deployment_target = '2.0'
+  spec.ios.deployment_target = '13.0'
+  spec.watchos.deployment_target = '6.0'
 
   spec.frameworks = 'Foundation'
   spec.source_files = 'RateLimit/**/*.{h,m,swift}'
